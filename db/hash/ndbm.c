@@ -52,8 +52,6 @@
  * First are the DBM routines, which call the NDBM routines, and
  * the NDBM routines, which call the DB routines.
  */
-static DBM *__cur_db;
-
 static DBM *_dbm_open(const char *, const char *, int, mode_t);
 
 /*
