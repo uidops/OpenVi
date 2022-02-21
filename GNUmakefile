@@ -30,7 +30,7 @@ LTOC         = -flto
 ###############################################################################
 
 # Default libraries to link
-LINKLIBS    ?= -lutil -lncurses
+LINKLIBS    ?= -lutil -lncurses -ltinfo
 LINKLIBS    += $(EXTRA_LIBS)
 
 ###############################################################################
