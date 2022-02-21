@@ -114,3 +114,6 @@ distclean
 
 # Tidy
 compile_commands.json
+
+# Ccls cache
+.ccls-cache
